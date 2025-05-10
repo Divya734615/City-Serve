@@ -1,0 +1,161 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Serve</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;  }
+ .header {
+    height: 100px;
+            display: flex;
+            align-items: center;
+            background-color: #f1f1f1; /* Background color of the header */
+            padding: 0 20px;   }
+.header .logo img {
+            height: 80px; /* Adjust this as necessary */        }
+.header .site-name {
+            font-size: 45px;
+            font-family: Calibri, sans-serif;
+            font-weight: bold;
+            color: rgb(1, 20, 18);
+            margin-left: 20px;        }
+     /* Navigation Bar */
+        nav {
+            background-color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  }
+  nav .logo {
+            font-size: 24px;
+            font-weight: bold ;  }
+      nav .location-search input {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;        }
+  /* Main Content */
+        main {            padding: 20px;   }
+.services {          margin-bottom: 40px;    }
+.services h2 {
+            font-size: 28px;
+            margin-bottom: 20px;        }
+.service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;    }
+.service-item {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;        }
+ .service-item img {
+            max-width: 100%;
+            height: auto;    margin-bottom: 10px;     }
+  .service-item button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;        }
+/* Pricing Section */
+        .pricing {
+            margin-bottom: 40px;
+        }
+        .pricing-item {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 20px;        }
+.pricing-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;    }
+
+        .pricing-item button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+         /* Footer */
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="D:\webcs\C.png" alt="City Serve Logo">
+        </div>
+        <div class="site-name">CITY SERVE</div>
+    </div>
+   <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">City Serve</div><br>
+        <div class="location-search">
+            <input type="text" placeholder="Enter location" />
+            <input type="text" placeholder="Search for services" />
+        </div>
+    </nav>
+  <!-- Main Content -->
+    <main>
+        <!-- Service Categories -->
+        <section class="services">
+            <h2>Select a service</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <img src="sw.jpg" alt="Switch & Socket">
+                    <p>Switch & socket</p>
+                    <p>Starts at ₹79</p>
+                    <a href="billing.html"><button>Add</button></a>
+                </div><br>
+                <div class="service-item">
+                    <img src="fan.jpg" alt="Fan">
+                    <p>Fan</p>
+                    <p>Starts at ₹179</p>
+                    <a href="billing.html"><button>Add</button></a>
+                </div><br>
+                <!-- Add more service items as needed -->
+            </div>
+        </section>
+         <!-- Pricing Section -->
+        <section class="pricing">
+            <div class="pricing-item">
+                <img src="tv.jpg" alt="b" width="230px" height="190px">
+                <h3>TV installation</h3>
+                <p>Starts at ₹379 -40mins</p>
+                <a href="billing.html"><button>Add</button></a><br>
+            </div>
+            <br>
+            <div class="pricing-item">
+                <img src="cctv.jpg" alt="b" width="230px" height="190px">
+                <h3>WiFi CCTV installation</h3>
+                <p>₹229 - 30 mins</p>
+                <button>Add</button>
+            </div>
+            <!-- Add more pricing items as needed -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>UC Promise: Verified Professionals, Hassle-Free Booking, Transparent Pricing</p>
+    </footer>
+</body>
+</html>
