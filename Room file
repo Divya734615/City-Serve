@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style1.css">
+          </head>
+        <body >
+            <div class="topheader">
+               <div  style="float:left;">cityserve@gmail.com </div>
+               <div style="float:right;">INSTA ID:cityserve1</div>
+            </div>
+        </br>
+             <div class="header">
+                <div class="row"> 
+              <div class="hpart1"> <img src="D:\webcs\C.png"/></div>
+                <div class="hpart2" >CITY SERVE</div>
+                <div class="hpart3" ><a  href="login.html" class="login" >LOGIN </a></div>
+</div>  
+            </div>
+<div class="menubar">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SERVICES</li>
+                    <li>BRANCHES</li>
+                  <a href="feed.html"><li>FEEDBACK</li></a>
+</ul>
+            </div>
+<div class="bodypart">
+                <br/>
+                <h1  class="sectitle" id="courses">SERVICES AVAILABLE</h1><br><hr><br>
+                <br/> 
+                <div class="service">
+                    <div class="serdiv">
+ <center> <a href="service.html"> Television and Entertainment Systems</a></center> 
+                    </div>
+                    <br><br>
+                    <div class="serdiv">
+<center> <a href="billing.html"> Furniture Assembly &Repair</a></center> 
+                       </div>
+                       <br><br>
+                       <div class="serdiv">
+<center> <a href="billing.html"> Wall & CeilingMaintenance</a></center> 
+                       </div>
+                       <br><br>
+                       <div class="serdiv">
+           <center> <a href="billing.html"> Flooring Services</a></center> 
+                       </div>
+                       <br><br>
+                       <div class="serdiv">
+           <center> <a href="billing.html"> Curtains & Blinds Installation</a></center> 
+                       </div>
+                       <br><br>
+                       <div class="serdiv">
+            <center> <a href="billing.html"> Pest Control</a></center> 
+                </div>  <br><hr>
+                </div> </div> <hr>        
+</html>
