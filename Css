@@ -1,0 +1,111 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.topheader   {
+	height:25px;
+	background-color:rgb(29, 27, 1);
+	color:white;
+	font-size:15px;
+	padding-top:5px;
+	padding-left:3px;
+	padding-right:3px;     }
+.header{
+	height:80px;
+	font-size:15px;     }
+.view{
+    background-color: black;
+    color: white;   }
+.row{
+  width:100%;
+  padding:8px;  }
+.header img{
+	width:80px;	height:60px;    }
+
+.hpart1{
+	width:5%;
+	float:left;   }
+.hpart2{
+    padding-left:30px;     width:50%;               float:left;    font-size:45px;
+    font-family:calibri;     font-weight:bold;    color:rgb(1, 20, 18);               }
+.hpart3{
+	width:8%;	  
+            float:right;       
+            background-color:rgb(14, 0, 13);
+	padding:5px;   
+        margin-right:55px;  
+   margin-top:15px;
+	text-align:center; 
+   border-radius:7px;     }
+.login{      text-decoration:none;  
+	color:white;      }
+.menubar{	height:25px;	
+background-color:rgb(15, 14, 1); 
+  .menubar ul li{	float:left;	}
+.menubar ul li {
+  display:block;
+  text-decoration:none;
+  color:rgb(249, 242, 242);
+  padding:3px;
+  font-weight:bold;
+  font-size:16px;
+  font-family:'arial';
+  padding-right:25px;
+  padding-left:25px;
+  border-radius:7px;
+}
+.bodypart{
+	height:600px;
+	font-size:15px;
+	}
+.sectitle{
+	text-align:center;
+	font-size:20px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color:rgb(31, 34, 33);   }
+.courses{
+	width:80%;
+	margin:0 auto auto;  }
+.coursediv{
+	width:25%;
+	border:1px solid grey;
+	height: 300px;
+    box-shadow: 3px 6px rgb(80, 58, 89);
+	border-radius:10px;
+	float:left;
+	margin: 3% 2%;
+	text-align:center;
+	text-decoration:none;       }
+.coursediv img{
+     width:100%;
+	height:70%;
+	border-radius:10px;  }
+.coursediv a{
+	width:100%;
+	text-decoration:none;
+	font-size:18px;
+	color:black;
+	padding:10px;
+	font-family:calibri;
+}
+.footer{
+	height:300px;
+	font-size:15px;
+	background-color:rgb(26, 24, 1);
+	color:rgb(251, 252, 252);  }
+.part20{
+	width:20%;
+	float:left;
+	margin-right:80px;
+	margin-left:10px;  }
+.part40{
+	width:40%;     float:left;     }
+.footer h1{
+	color:rgb(244, 245, 238);
+	font-size:18px;}
+.serdiv a{
+text-decoration: none;
+color:black;
+font-size: larger;
+border:2px black solid;
+}
